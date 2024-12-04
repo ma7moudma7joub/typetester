@@ -1,0 +1,112 @@
+ * {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+ }
+ :root {
+    --main-color: #2196f3;
+ }
+ body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #eee;
+    min-height: 100vh;
+ }
+ .main-heading {
+    color: white;
+    background-color: var(--main-color);
+    font-size: 30px;
+    text-align: center;
+    font-size: bold;
+    padding: 20px;
+ }
+ .container {
+    margin: 0 auto;
+    max-width: 900px;
+ }
+ .lvltime {
+   background-color: white;
+   padding:10px;
+   font-size: 17px;
+   text-align:center;
+   border-radius: 6px;
+   margin: 10px 0;
+ }
+ .lvltime span {
+    color: var(--main-color);
+ }
+ .lvltime span:before {
+    content: "[ ";
+    font-weight: bold ;
+
+ }
+ .lvltime span:after
+ {
+    content: " ]";
+    font-weight: bold ;
+ }
+    .typeword {
+    text-transform: capitalize;
+    font-size: 40px;
+    color:var(--main-color);
+    margin: 15px 0;
+    text-align: center;
+ }
+ input[type="text"] {
+    width: 100%;
+    height: 50px;
+    border: 3px solid var(--main-color);
+    border-radius:6px;
+    font-size: 20px;
+ }
+ input:focus {
+    outline: none;
+ }
+ .start {
+    font-size: 20px;
+    color: white;
+    background-color: var(--main-color);
+    padding: 20px;
+    font-weight:bold;
+    text-align:center;
+    margin-top: 20px;
+    cursor: pointer;
+ }
+ .words {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 6px;
+    margin: 20px 0;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+ }
+ .words span {
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 6px;
+    padding: 10px;
+    margin: 5px;
+ }
+ .time-score-left {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+ }
+ .time-score-left span span  {
+    color: var(--main-color);
+    margin-left: 5px;
+ }
+.finish {
+    font-weight:bold;
+    font-size: 40px;
+    text-align:center;
+    padding: 15px;
+} 
+.finish .good{
+    color:var(--main-color);
+}
+.finish .bad{
+    color:red;
+} 
